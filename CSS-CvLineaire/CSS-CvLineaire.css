@@ -1,3 +1,95 @@
-h6{
-    border: 2px solid blue;
+body{
+    background-color: darkcyan;
+    font-size: 1.5em;
 }
+/* -----------------------------haut de page-------------------------------------- */
+.header{
+    background-color: burlywood;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nomPrenom{
+    border: 1px solid blue;
+    width: 30vh;
+}
+.presentation{
+    border: 1px solid blue;
+    margin: 30px;
+    text-align: center;
+}
+
+/* -----------------------------nav------------------------------------- */
+.navigation{
+    text-align: center;
+
+    border: 1px solid blue;
+    background-color: gray;
+    list-style: none;
+
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav1{
+    border: 1px solid blue;
+    display: inline;
+    margin-left: 8vh;
+    margin-right: 8vh;
+}
+
+/* -------------------------tableau des formation---------------------------------- */
+#tableau{
+    margin-top: 5vh;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10vh;
+}
+th{
+    border: 1px solid blue;
+}
+.v1{
+    width: 20vh;
+}
+.v2{
+    width: 10vh;
+}
+.v3{
+    
+}
+/* -------------------------------motiv/obj---------------------------------------- */
+.motiv{
+    border: 1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------contact bas droit----------------------------- */
+.contact{
+    border: 1px solid red;
+    background: rgb(255, 147, 147);
+    border-radius: 10% 10% 0% 10%;
+
+    font-size: 0.7em;
+
+    min-width: 100px;
+    
+    padding-left: 5px;
+    padding-right: 5px;
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.titrecontact{
+    font-size: 1.3em;
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------ */
